@@ -1,0 +1,37 @@
+# Backend
+/node_modules
+package-lock.json
+yarn.lock
+.env
+.env.* # For multiple environment files
+npm-debug.log
+*.log
+*.tmp
+*.tmp.*
+*.tmp/* # For temporary files
+.DS_Store # macOS specific
+Thumbs.db # Windows specific
+ehthumbs.db # Windows specific
+*.local # Local configuration files
+*.pid # Process ID files
+*.seed # Seed files if any
+*.log # Log files
+
+
+# Frontend (React)
+/frontend-materialui/node_modules
+/frontend-materialui/.env
+/frontend-materialui/.env.* # For multiple environment files
+/frontend-materialui/build # React build folder
+/frontend-materialui/*.log
+/frontend-materialui/*.tmp
+/frontend-materialui/*.tmp.*
+/frontend-materialui/.DS_Store
+/frontend-materialui/Thumbs.db
+/frontend-materialui/ehthumbs.db
+/frontend-materialui/*.local
+/frontend-materialui/*.pid
+
+
+# IDE and Editor
+*.env

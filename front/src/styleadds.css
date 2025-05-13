@@ -1,0 +1,50 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f6f9;
+  margin: 0;
+  padding: 0;
+}
+
+.form-container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  margin: 20px auto;
+}
+
+.form-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.submit-btn {
+  padding: 10px;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+}

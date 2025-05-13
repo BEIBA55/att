@@ -1,0 +1,56 @@
+.student-list-container {
+  margin: 20px auto;
+  padding: 20px;
+  width: 60%;
+}
+
+.student-list-title {
+  font-size: 22px;
+  color: #333;
+  text-align: center;
+}
+
+.student-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.student-card {
+  background-color: #ffffff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.student-name {
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+}
+
+.student-email {
+  color: #777;
+  font-size: 14px;
+}
+
+.delete-button {
+  margin-left: 15px;
+  padding: 2px 8px;
+  background-color: #ff4444;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 0.8em;
+}
+
+.delete-button:hover {
+  background-color: #cc0000;
+}
+
+.student-list li {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}

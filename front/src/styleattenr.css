@@ -1,0 +1,39 @@
+.attendance-container {
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.attendance-record {
+  background-color: #fafafa;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.attendance-date {
+  font-weight: bold;
+}
+
+.attendance-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.attendance-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+}
+
+.attendance-present {
+  color: green;
+}
+
+.attendance-absent {
+  color: red;
+}
