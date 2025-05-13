@@ -19,18 +19,18 @@ ehthumbs.db # Windows specific
 
 
 # Frontend (React)
-/frontend-materialui/node_modules
-/frontend-materialui/.env
-/frontend-materialui/.env.* # For multiple environment files
-/frontend-materialui/build # React build folder
-/frontend-materialui/*.log
-/frontend-materialui/*.tmp
-/frontend-materialui/*.tmp.*
-/frontend-materialui/.DS_Store
-/frontend-materialui/Thumbs.db
-/frontend-materialui/ehthumbs.db
-/frontend-materialui/*.local
-/frontend-materialui/*.pid
+/front/node_modules
+/front/.env
+/front/.env.* # For multiple environment files
+/front/build # React build folder
+/front/*.log
+/front/*.tmp
+/front/*.tmp.*
+/front/.DS_Store
+/front/Thumbs.db
+/front/ehthumbs.db
+/front/*.local
+/front/*.pid
 
 
 # IDE and Editor
